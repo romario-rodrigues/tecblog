@@ -32,8 +32,14 @@ body {
 	
 }
 
-#area-postagens, #area-lateral{
-	background: #FFF;
+#area-postagens {
+	width: 660px;
+	float: left;
+}
+
+#area-lateral{
+	width: 240px;
+	float: right;
 } 
 
 #area-postagens {
@@ -41,16 +47,24 @@ body {
 	float: left;
 }
 
-#area-lateral {
-	width: 240px;
-	float: right;
-	background: white;
-}
 
 .postagem {
 	padding: 20px;
 	margin-bottom: 20px;
+	background: white;
 
+}
+
+.conteudo-lateral {
+	background: white;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+.postagem-lateral {
+	font-size: 0.8em;
+	padding: 5px;
+	border-bottom: 1px dotted; #CCC;
 }
 
 #rodape {
@@ -72,12 +86,27 @@ a {
 }
 
 a:link, a:visited {
+	color: #f7b600; /* Cor Branco*/
+	font-weight: bold;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#area-cabecalho a {
+	color: #FFF;
+	text-decoration: none;
+	margin: 8px;
+}
+
+#area-cabecalho a:link, #area-cabecalho a:visited {
 	color: #FFF; /* Cor Branco*/
 	padding: 8px 12px;
 	font-weight: bold;
 }
 
-a:hover {
+#area-cabecalho a:hover {
 	color: #f7b600;
 	background: white;
 	border-radius: 3px;
@@ -93,6 +122,17 @@ h1  {
 	font-size: 2.5em;
 }
 
+h2 {
+	color: #f7b600;
+}
+
+h3 {
+	color: #565656;
+	background: #CCC;
+	padding: 5px;
+
+}
+
 
 .branco {
 	color: white;
@@ -105,6 +145,7 @@ h1  {
 	margin-bottom: 10px;
 	display: block;
 }
+
 
 
 
